@@ -24,6 +24,7 @@ int main()
 		perror("pthread_create");
 		return -1;
 	}
+
 	}
 	
 	while(1)
