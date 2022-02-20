@@ -19,7 +19,7 @@ int main()
 	//调用连接接口
 	struct sockaddr_in peeraddr;
 	peeraddr.sin_family = AF_INET;
-	peeraddr.sin_port = htons(1998);
+	peeraddr.sin_port = htons(19998);
 	//inet_addr finish two things
 	peeraddr.sin_addr.s_addr = inet_addr("192.168.83.128");
 	

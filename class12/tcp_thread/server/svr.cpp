@@ -41,6 +41,25 @@ int main()
 	//new_sock用来和客户端通信的	
 	//当已完成连接队列为空的时候，调用accept函数会阻塞
 
+
+
+	while(1)
+	{
+		int new_sock = accept(listen_sock, NULL, NULL);
+		if(new_sock < 0)
+		{
+			perror("accept");
+			continue;
+		}
+
+
+
+
+
+
+
+
+
 	int new_sock = -1;
 	while(1)
 	{
