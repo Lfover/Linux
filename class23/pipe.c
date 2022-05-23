@@ -2,6 +2,7 @@
 /*
     管道的读写特点
 */
+/*
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/types.h>
@@ -35,3 +36,5 @@ int main()
     }
     return 0;
 }
+
+*/
