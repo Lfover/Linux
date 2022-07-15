@@ -2,7 +2,7 @@
 #include <pthread.h>
 #include <unistd.h>
 int bowl = 0;
-#define ThreadCount 2
+#define ThreadCount 4
 //互斥锁
 pthread_mutex_t g_mut;
 //定义条件变量
